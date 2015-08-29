@@ -22,7 +22,6 @@ See the terminal log below:
 
 ```
 
-
 Caios-MacBook-Pro:~ caiomsouza$ sudo npm install -g cordova
 Password:
 npm WARN engine xmlbuilder@2.2.1: wanted: {"node":"0.8.x || 0.10.x"} (current: {"node":"0.12.7","npm":"2.11.3"})
@@ -32,6 +31,22 @@ cordova@5.2.0 /usr/local/lib/node_modules/cordova
 ├── q@1.0.1
 ├── nopt@3.0.1 (abbrev@1.0.7)
 └── cordova-lib@5.2.0 (valid-identifier@0.0.1, osenv@0.1.0, properties-parser@0.2.3, bplist-parser@0.0.6, unorm@1.3.3, semver@4.3.6, shelljs@0.3.0, cordova-app-hello-world@3.9.0, rc@0.5.2, dep-graph@1.1.0, xcode@0.8.0, elementtree@0.1.6, npmconf@2.1.2, glob@4.0.6, tar@1.0.2, cordova-registry-mapper@1.1.10, npm@2.14.1, plist@1.1.0, aliasify@1.7.2, cordova-serve@0.1.3, init-package-json@1.9.1, request@2.47.0, cordova-js@4.1.0)
+
+
+```
+
+Creating a Apache Cordova App 
+
+```
+cordova create hello com.example.hello HelloWorld
+
+```
+
+See the terminal log below:
+
+```
+
+
 Caios-MacBook-Pro:~ caiomsouza$ cordova create hello com.example.hello HelloWorld
 Creating a new cordova project.
 Caios-MacBook-Pro:~ caiomsouza$ cd hello
