@@ -15,13 +15,11 @@ Install Apache Cordova
 
 ```
 sudo npm install -g cordova
-
 ```
 
 See the terminal log below:
 
 ```
-
 Caios-MacBook-Pro:~ caiomsouza$ sudo npm install -g cordova
 Password:
 npm WARN engine xmlbuilder@2.2.1: wanted: {"node":"0.8.x || 0.10.x"} (current: {"node":"0.12.7","npm":"2.11.3"})
@@ -39,14 +37,11 @@ Creating a Apache Cordova App
 
 ```
 cordova create hello com.example.hello HelloWorld
-
 ```
 
 See the terminal log below:
 
 ```
-
-
 Caios-MacBook-Pro:~ caiomsouza$ cordova create hello com.example.hello HelloWorld
 Creating a new cordova project.
 Caios-MacBook-Pro:~ caiomsouza$ cd hello
@@ -70,7 +65,6 @@ Installing "cordova-plugin-whitelist" for android
 Caios-MacBook-Pro:hello caiomsouza$ cordova platforms ls
 Installed platforms: android 4.1.1, ios 3.9.1
 Available platforms: amazon-fireos, blackberry10, browser, firefoxos, webos
-
 ``` 
 
 
@@ -80,7 +74,6 @@ Available platforms: amazon-fireos, blackberry10, browser, firefoxos, webos
 http://blog.professorcoruja.com/2015/08/how-to-install-android-studio-on-mac-os.html
 
 ```
-
 Installing Archives:
   Preparing to install archives
   Installing Google APIs, Android API 23, revision 1
@@ -113,7 +106,6 @@ Running Intel® HAXM installer
 HAXM silent installation only support mac OS X from 10.8 to 10.10 !
 Creating Android virtual device
 Android virtual device Nexus_5_API_23_x86 was successfully created
-
 ```
 
 
